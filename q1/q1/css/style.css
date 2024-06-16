@@ -1,2 +1,63 @@
 @charset "UTF-8";
 /* 回答はここから */
+/* Q1-1 */
+.q1--horizontality {
+  text-align: center;
+}
+
+.text-box {
+  background: #fff;
+}
+
+.q1-text {
+  padding: 10px;
+  background: #a4b3e9;
+  margin: 20px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.mt {
+  width: 90px;
+}
+
+/* q1-2 */
+
+.q1-table {
+  display: table;
+  text-align: center;
+}
+
+.table-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.q1-2text {
+  font-size: 16px;
+  padding: 10px;
+  background: #fff;
+  display: inline-block;
+}
+
+.q1-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q1--position {
+  position: relative;
+}
+
+.container {
+  text-align: center;
+}
+
+.pt {
+  background: #a4b3e9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
